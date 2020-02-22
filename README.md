@@ -9,7 +9,7 @@ If you want to make use of this repository then you will have to download the da
 The file *lstm_model_weights.h5* is the weights of the model trained on somewhere around 60000 batchs, with a batch size of 8 
 and sequence lengths between 128 and 256 steps. Likely not enough training but I don't have a gpu.
 
-#Results
+##Results
   The mean absolute error over time plots for most attributes being predicted can be seen in the _plots_ directory. The error is the average error from 128 sequence predictions. The different lines are for different stations and all of these attributes were normalized with mean 0 and standard deviation 1 as part of the preprocessing. So an error of 0.5 is about 0.5 standard deviations (I think) away from the actual value.
 
   The model cannot accurately predict most of the measured atrtibutes more than a few hours out and even then it's not great. 
