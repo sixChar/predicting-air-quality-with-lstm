@@ -1,5 +1,5 @@
 from data_utils import *
-from LSTMModel import AirPredictor
+from lstm_model import AirPredictor
 
 from matplotlib import pyplot as plt
 
